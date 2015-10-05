@@ -1,0 +1,85 @@
+#header2 {
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+#main_content2 {
+    height: auto;
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+header ul {
+    padding: inherit;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 18px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: sans-serif;
+    background-color: lightpink;
+    margin-top: 24px;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+form {
+    color: black;
+    font-family: sans-serif;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+input {
+    height: 5%;
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+}
+
+#submit_btn {
+    width: 20%;
+    background-color: lightpink;
+    border: 0;
+}
+
+textarea {
+    font-family: inherit;
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+}
+
