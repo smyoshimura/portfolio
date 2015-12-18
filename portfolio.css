@@ -1,0 +1,53 @@
+/*General Page Styling*/
+*, h1, h2, h3, h4, h5 {
+    //font-family: 'Lato', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    //font-family: 'Arimo', sans-serif;
+}
+
+a, .menu > li > a {
+    color: #d42551;
+}
+
+a:hover, .menu > li > a:hover {
+    color: yellowgreen;
+}
+
+/*Nav Bar*/
+.top-bar {
+    position: fixed;
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #0a4063;
+    color: #d42551;
+}
+
+/*About*/
+#about {
+    padding: 8%;
+    background-color: yellowgreen;
+    color: #0a4063;
+}
+
+/*Skills*/
+#skills {
+    padding: 8%;
+    background-color: #d42551;
+    color: #0a4063;
+}
+
+/*Skills*/
+#projects {
+    padding: 8%;
+    color: #0a4063;
+}
+
+/*Footer*/
+.footer {
+    padding: 5%;
+    background-color: #0a4063;
+    color: yellowgreen;
+}
