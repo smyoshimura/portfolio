@@ -75,6 +75,18 @@ a:hover, .menu > li > a:hover {
     color: #0a4063;
 }
 
+.project-box {
+    filter: grayscale(85%);
+    -webkit-filter: grayscale(85%);
+    transition: 0.7s ease-out;
+}
+
+.project-box:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transition: .3s ease-in;
+}
+
 .thumbnail {
     border: 4px solid #468289;
     border-top-right-radius: 25%;
