@@ -76,8 +76,8 @@ a:hover, .menu > li > a:hover {
 }
 
 .project-box {
-    filter: grayscale(85%);
-    -webkit-filter: grayscale(85%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     transition: 0.7s ease-out;
 }
 
