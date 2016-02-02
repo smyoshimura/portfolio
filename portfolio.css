@@ -1,48 +1,52 @@
 /*General Page Styling*/
 *, h1, h2, h3, h4, h5 {
     //font-family: 'Lato', sans-serif;
-    //font-family: 'Montserrat', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Raleway', sans-serif;
     //font-family: 'Arimo', sans-serif;
 }
 
 a, .menu > li > a {
-    color: tomato;
+    color: #10102b;
 }
 
 a:hover, .menu > li > a:hover {
-    color: yellowgreen;
+    color: white;
+}
+
+.fi-lightbulb {
+    color: #c5f2b8;
+}
+
+.fi-monitor, .fi-wrench, .fi-pencil {
+    color: #468289;
 }
 
 .icons {
     font-size: 4em;
     border-radius: 50%;
-    border: 4px solid #0a4063;
+    border: 4px solid #468289;
     padding: .04em .24em;
-}
-
-.icons:hover {
-    color: ghostwhite;
-    border: 4px solid ghostwhite;
 }
 
 /*Nav Bar*/
 .top-bar {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .top-bar {
-    background-color: #0a4063;
-    color: #FF7547;
+    background-color: #4c4763;
+    color: white;
 }
 
 /*About*/
 #about {
     height: 100vh;
     padding: 8%;
-    background-color: yellowgreen;
-    color: #0a4063;
+    background-color: #468289;
+    color: #73baa8;
     text-align: center;
 }
 
@@ -50,12 +54,16 @@ a:hover, .menu > li > a:hover {
     transform: translateY(50%);
 }
 
+#myname {
+    color: #c5f2b8;
+}
+
 /*Skills*/
 #skills {
     height: 100vh;
     padding: 8%;
-    background-color: #FF7547;
-    color: #0a4063;
+    background-color: #73baa8;
+    color: #4c4763;
     font-size: 1.5em;
 }
 
@@ -63,13 +71,31 @@ a:hover, .menu > li > a:hover {
 #projects {
     height: 100vh;
     padding: 8%;
-    background-color: ghostwhite;
+    background-color: #97ba8f;
     color: #0a4063;
+}
+
+.project-box {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 0.7s ease-out;
+}
+
+.project-box:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transition: .3s ease-in;
+}
+
+.thumbnail {
+    border: 4px solid #468289;
+    border-top-right-radius: 25%;
 }
 
 /*Footer*/
 .footer {
     padding: 5%;
-    background-color: #0a4063;
-    color: yellowgreen;
+    background-color: #4c4763;
+    color: #468289;
+    font-size: 1.3em;
 }
