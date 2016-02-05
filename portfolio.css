@@ -104,7 +104,6 @@ a:hover, .menu > li > a:hover {
     text-align: center;
 }
 
-/* Common style */
 .grid figure {
     position: relative;
     overflow: hidden;
@@ -140,8 +139,6 @@ a:hover, .menu > li > a:hover {
     height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -175,6 +172,8 @@ figure.effect-zoe p.icon-links a {
     float: right;
     color: #3c4a50;
     font-size: 2em;
+    margin-right: 15px;
+    line-height: 0;
 }
 
 figure.effect-zoe:hover p.icon-links a:hover,
