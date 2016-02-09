@@ -34,16 +34,22 @@ a:hover, .menu > li > a:hover {
     position: fixed;
     width: 100%;
     z-index: 1;
-}
-
-.top-bar {
     background-color: #4c4763;
     color: white;
 }
 
+.top-bar-right ul {
+    background-color: #4c4763;
+}
+
+.active {
+    color: white !important;
+}
+
 /*About*/
 #about {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding: 8%;
     background-color: #468289;
     color: #73baa8;
@@ -60,11 +66,12 @@ a:hover, .menu > li > a:hover {
 
 /*Skills*/
 #skills {
-    height: 100vh;
-    padding: 8%;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 12%;
     background-color: #73baa8;
     color: #4c4763;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 /*Projects*/
