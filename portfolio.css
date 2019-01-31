@@ -34,12 +34,13 @@ a:hover, .menu > li > a:hover {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: #4c4763;
+    /*background-color: #4c4763;*/
+    background-color: #5B445E;
     color: white;
 }
 
 .top-bar-right ul {
-    background-color: #4c4763;
+    background-color: #5B445E;
 }
 
 .active {
@@ -52,7 +53,7 @@ a:hover, .menu > li > a:hover {
     height: auto;
     padding: 8%;
     background-color: #468289;
-    color: #73baa8;
+    color: #8FC7B9;
     text-align: center;
 }
 
@@ -60,8 +61,8 @@ a:hover, .menu > li > a:hover {
     transform: translateY(50%);
 }
 
-#myname {
-    color: #c5f2b8;
+.whitelights {
+    color: #fff;
 }
 
 /*Skills*/
@@ -69,9 +70,13 @@ a:hover, .menu > li > a:hover {
     min-height: 100vh;
     height: auto;
     padding-top: 12%;
-    background-color: #73baa8;
-    color: #4c4763;
+    /*background-color: #73baa8;*/
+    background-color: #8FC7B9;
+    color: #5B445E;
     font-size: 1.4em;
+}
+.skills {
+    margin-left: 2em;
 }
 
 /*Projects*/
@@ -79,7 +84,7 @@ a:hover, .menu > li > a:hover {
     min-height: 100vh;
     height: auto;
     padding: 5%;
-    background-color: #97ba8f;
+    background-color: #468289;
     color: #0a4063;
 }
 
@@ -97,7 +102,7 @@ a:hover, .menu > li > a:hover {
 }
 
 .thumbnail {
-    border: 3px solid #468289;
+    border: 3px solid #fff;
     border-top-right-radius: 25%;
 }
 
@@ -220,7 +225,7 @@ figure.effect-zoe p.icon-links a span::before {
 
 figure.effect-zoe:hover p.description {
     opacity: 1;
-    background: #4c4763;
+    background: #5B445E;
 }
 
 figure.effect-zoe:hover figcaption,
@@ -253,7 +258,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /*Footer*/
 .footer {
     padding: 5%;
-    background-color: #4c4763;
-    color: #468289;
+    background-color: #5B445E;
+    color: #8FC7B9;
     font-size: 1.3em;
 }
