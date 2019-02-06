@@ -14,6 +14,12 @@ a:hover, .menu > li > a:hover {
     color: white;
 }
 
+hr {
+    height: 1px; 
+    border: 0;
+    margin: 0 0 1em 0;
+}
+
 .fi-lightbulb {
     color: #c5f2b8;
 }
@@ -70,7 +76,6 @@ a:hover, .menu > li > a:hover {
     min-height: 100vh;
     height: auto;
     padding-top: 12%;
-    /*background-color: #73baa8;*/
     background-color: #8FC7B9;
     color: #5B445E;
     font-size: 1.4em;
@@ -78,20 +83,27 @@ a:hover, .menu > li > a:hover {
 .skills {
     margin-left: 2em;
 }
-hr {
+#skills hr {
     background-color: #468289; 
-    height: 1px; 
-    border: 0;
-    margin: 0 0 1em 0;
 }
 
 /*Experience*/
 #experience {
     min-height: 100vh;
     height: auto;
-    color: #468289;
+    background-color: #468289;
+    color: #fff;
     padding-top: 12%;
     font-size: 1.5em;
+}
+#experience hr {
+    background-color: #8FC7B9;
+}
+#experience h3 {
+    margin: 0;
+}
+#experience li {
+    padding: 1rem 0;
 }
 
 /*Projects*/
@@ -99,7 +111,7 @@ hr {
     min-height: 100vh;
     height: auto;
     padding: 5%;
-    background-color: #468289;
+    background-color: #8FC7B9;
     color: #0a4063;
 }
 
