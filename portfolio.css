@@ -262,26 +262,6 @@ figure.effect-zoe:hover p.icon-links a {
     transform: translate3d(0,0,0);
 }
 
-figure.effect-zoe:hover h5 {
-    -webkit-transition-delay: 0.05s;
-    transition-delay: 0.05s;
-}
-
-figure.effect-zoe:hover p.icon-links a:nth-child(3) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-figure.effect-zoe:hover p.icon-links a:nth-child(2) {
-    -webkit-transition-delay: 0.15s;
-    transition-delay: 0.15s;
-}
-
-figure.effect-zoe:hover p.icon-links a:first-child {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
 /*Footer*/
 .footer {
     padding: 5%;
