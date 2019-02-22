@@ -104,6 +104,7 @@ hr {
 }
 #experience li {
     padding: 1rem 0;
+    font-size: 0.9em;
 }
 
 /*Projects*/
@@ -132,6 +133,11 @@ hr {
     border: 3px solid #fff;
     /*border-top-right-radius: 25%;
 */}
+
+.dec-soc-header {
+    float: left;
+    line-height: 2em;
+}
 
 /*---------------*/
 /***** Zoe *****/
